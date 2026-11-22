@@ -9,10 +9,10 @@
     "stock": 25,
     "featured": true,
     "images": [
-      "../assets/img/auriculares_inalambricos/auriculares_inalambricos.png",
-      "../assets/img/auriculares_inalambricos/auriculares_inalambricos1.png",
-      "../assets/img/auriculares_inalambricos/auriculares_inalambricos2.png",
-      "../assets/img/auriculares_inalambricos/auriculares_inalambricos3.png"
+      "./assets/img/auriculares_inalambricos/auriculares_inalambricos.png",
+      "./assets/img/auriculares_inalambricos/auriculares_inalambricos1.png",
+      "./assets/img/auriculares_inalambricos/auriculares_inalambricos2.png",
+      "./assets/img/auriculares_inalambricos/auriculares_inalambricos3.png"
     ]
   },
   {
@@ -25,10 +25,10 @@
     "stock": 40,
     "featured": false,
     "images": [
-      "../assets/img/parlante_portatil/parlante_portatil.png",
-      "../assets/img/parlante_portatil/parlante_portatil1.png",
-      "../assets/img/parlante_portatil/parlante_portatil2.png",
-      "../assets/img/parlante_portatil/parlante_portatil3.png"
+      "./assets/img/parlante_portatil/parlante_portatil.png",
+      "./assets/img/parlante_portatil/parlante_portatil1.png",
+      "./assets/img/parlante_portatil/parlante_portatil2.png",
+      "./assets/img/parlante_portatil/parlante_portatil3.png"
     ]
   },
   {
@@ -41,10 +41,10 @@
     "stock": 12,
     "featured": true,
     "images": [
-      "../assets/img/barra_sonido/barra_de_sonido_cinema.png",
-      "../assets/img/barra_sonido/barra_de_sonido_cinema1.png",
-      "../assets/img/barra_sonido/barra_de_sonido_cinema2.png",
-      "../assets/img/barra_sonido/barra_de_sonido_cinema3.png"
+      "./assets/img/barra_sonido/barra_de_sonido_cinema.png",
+      "./assets/img/barra_sonido/barra_de_sonido_cinema1.png",
+      "./assets/img/barra_sonido/barra_de_sonido_cinema2.png",
+      "./assets/img/barra_sonido/barra_de_sonido_cinema3.png"
     ]
   },
   {
@@ -57,10 +57,10 @@
     "stock": 3,
     "featured": false,
     "images": [
-      "../assets/img/microfono_usb_streaming/microfono_usb_streaming.png",
-      "../assets/img/microfono_usb_streaming/microfono_usb_streaming1.png",
-      "../assets/img/microfono_usb_streaming/microfono_usb_streaming2.png",
-      "../assets/img/microfono_usb_streaming/microfono_usb_streaming3.png"
+      "./assets/img/microfono_usb_streaming/microfono_usb_streaming.png",
+      "./assets/img/microfono_usb_streaming/microfono_usb_streaming1.png",
+      "./assets/img/microfono_usb_streaming/microfono_usb_streaming2.png",
+      "./assets/img/microfono_usb_streaming/microfono_usb_streaming3.png"
     ]
   },
   {
@@ -73,10 +73,10 @@
     "stock": 10,
     "featured": true,
     "images": [
-      "../assets/img/monitor_curvo/monitor_curvo.png",
-      "../assets/img/monitor_curvo/monitor_curvo1.png",
-      "../assets/img/monitor_curvo/monitor_curvo2.png",
-      "../assets/img/monitor_curvo/monitor_curvo3.png"
+      "./assets/img/monitor_curvo/monitor_curvo.png",
+      "./assets/img/monitor_curvo/monitor_curvo1.png",
+      "./assets/img/monitor_curvo/monitor_curvo2.png",
+      "./assets/img/monitor_curvo/monitor_curvo3.png"
     ]
   },
   {
@@ -89,10 +89,10 @@
     "stock": 22,
     "featured": false,
     "images": [
-      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb.png",
-      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb1.png",
-      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb2.png",
-      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb3.png"
+      "./assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb.png",
+      "./assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb1.png",
+      "./assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb2.png",
+      "./assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb3.png"
     ]
   },
   {
@@ -105,10 +105,10 @@
     "stock": 18,
     "featured": false,
     "images": [
-      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb.png",
-      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb1.png",
-      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb2.png",
-      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb3.png"
+      "./assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb.png",
+      "./assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb1.png",
+      "./assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb2.png",
+      "./assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb3.png"
     ]
   },
   {
@@ -121,10 +121,10 @@
     "stock": 27,
     "featured": false,
     "images": [
-      "../assets/img/celular/celular.png",
-      "../assets/img/celular/celular1.png",
-      "../assets/img/celular/celular2.png",
-      "../assets/img/celular/celular3.png"
+      "./assets/img/celular/celular.png",
+      "./assets/img/celular/celular1.png",
+      "./assets/img/celular/celular2.png",
+      "./assets/img/celular/celular3.png"
     ]
   },
   {
@@ -137,10 +137,10 @@
     "stock": 9,
     "featured": true,
     "images": [
-      "../assets/img/notebook_gaming/notebook_gaming.png",
-      "../assets/img/notebook_gaming/notebook_gaming1.png",
-      "../assets/img/notebook_gaming/notebook_gaming2.png",
-      "../assets/img/notebook_gaming/notebook_gaming3.png"
+      "./assets/img/notebook_gaming/notebook_gaming.png",
+      "./assets/img/notebook_gaming/notebook_gaming1.png",
+      "./assets/img/notebook_gaming/notebook_gaming2.png",
+      "./assets/img/notebook_gaming/notebook_gaming3.png"
     ]
   },
   {
@@ -153,10 +153,10 @@
     "stock": 16,
     "featured": false,
     "images": [
-      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro.png",
-      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro1.png",
-      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro2.png",
-      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro3.png"
+      "./assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro.png",
+      "./assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro1.png",
+      "./assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro2.png",
+      "./assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro3.png"
     ]
   },
   {
@@ -169,10 +169,10 @@
     "stock": 6,
     "featured": true,
     "images": [
-      "../assets/img/silla_gamer/silla_gamer_ergonomica.png",
-      "../assets/img/silla_gamer/silla_gamer_ergonomica1.png",
-      "../assets/img/silla_gamer/silla_gamer_ergonomica2.png",
-      "../assets/img/silla_gamer/silla_gamer_ergonomica3.png"
+      "./assets/img/silla_gamer/silla_gamer_ergonomica.png",
+      "./assets/img/silla_gamer/silla_gamer_ergonomica1.png",
+      "./assets/img/silla_gamer/silla_gamer_ergonomica2.png",
+      "./assets/img/silla_gamer/silla_gamer_ergonomica3.png"
     ]
   },
   {
@@ -185,10 +185,10 @@
     "stock": 6,
     "featured": true,
     "images": [
-      "../assets/img/consola_gaming/consola_retro_hdmi.png",
-      "../assets/img/consola_gaming/consola_retro_hdmi1.png",
-      "../assets/img/consola_gaming/consola_retro_hdmi2.png",
-      "../assets/img/consola_gaming/consola_retro_hdmi3.png"
+      "./assets/img/consola_gaming/consola_retro_hdmi.png",
+      "./assets/img/consola_gaming/consola_retro_hdmi1.png",
+      "./assets/img/consola_gaming/consola_retro_hdmi2.png",
+      "./assets/img/consola_gaming/consola_retro_hdmi3.png"
     ]
   }
 ]
