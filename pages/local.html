@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>nuestro local</title>
+  <meta name="description" content="Conocé el local de NovaShop: videos, dirección, horarios y mapa.">
+  <meta name="theme-color" content="#5a4df0">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="local">
+  <div id="navbar-root"></div>
+
+  <main>
+    <header class="page-hero">
+      <div class="container">
+        <h1 class="local">nuestro local</h1>
+        <p>Veni a conocernos y encontra tus productos.</p>
+      </div>
+    </header>
+
+    <section class="container section">
+      <div class="section-head">
+        <h2>conoce el local</h2>
+      </div>
+      <div class="video-grid" id="localVideos"></div>
+    </section>
+
+    <section class="container section">
+      <div class="section-head">
+        <h2>como llegar</h2>
+      </div>
+      <div class="local-grid">
+        <div class="local-info">
+          <div class="info-card">
+            <h3>📍 Dirección</h3>
+            <p>Bacacay 2977, Ciudad Autónoma de Buenos Aires</p>
+          </div>
+          <div class="info-card">
+            <h3>🕒 Horarios</h3>
+            <p>Lunes a sábado de 10 a 20 hs<br>Domingos de 11 a 18 hs</p>
+          </div>
+          <div class="info-card">
+            <h3>📞 Contacto</h3>
+            <p>+54 11 5555-0123<br>soporte@urbanshop.com</p>
+          </div>
+        </div>
+
+        <!-- Para cambiar la ubicación: en Google Maps → Compartir → Incorporar un mapa → copiá el src -->
+        <div class="map-frame">
+          <iframe 
+            title="Mapa con la ubicacion del local de UrbanShop"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.13584833657!2d-58.48842144012451!3d-34.62858203477938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc97e501c452f%3A0x636c5add8223c99d!2sURBAN!5e0!3m2!1ses-419!2sar!4v1794512489374!5m2!1ses-419!2sar"
+            width="600" height="450"
+            style="border:0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-root"></div>
+  <noscript><p class="noscript">para usar la tienda activa js en el navegador.</p></noscript>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

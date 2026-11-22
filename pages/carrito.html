@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>carrito</title>
+  <meta name="theme-color" content="#5a4df0">
+  <link rel="icon" href="../assets/logo/logo.png" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="cart">
+  <div id="navbar-root"></div>
+
+  <main class="container section">
+    <h1 class="page-title">tu carrito</h1>
+
+    <div class="cart-layout">
+      <section class="cart-list" id="cartList" aria-live="polite" aria-label="productos en el carrito"></section>
+      <aside class="cart-summary" id="cartSummary" aria-label="resumen de la compra" hidden></aside>
+    </div>
+  </main>
+
+  <!-- simular la compra -->
+  <dialog class="dialog" id="checkoutDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-body" id="dialogBody"></div>
+  </dialog>
+
+  <div id="footer-root"></div>
+  <noscript><p class="noscript">activa js para usar la tienda.</p></noscript>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

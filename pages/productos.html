@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>productos</title>
+  <meta name="description" content="catalogo completo de urbanshop: audio, computación, celulares, gaming y hogar inteligente.">
+  <meta name="theme-color" content="#5a4df0">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="products">
+  <div id="navbar-root"></div>
+
+  <main>
+    <header class="page-hero">
+      <div class="container">
+        <h1 class="local">todos los productos</h1>
+        <p>busca por categoria, por nombre y encontra las ofertas.</p>
+      </div>
+    </header>
+
+    <section class="container section">
+      <form class="filters" id="filters" role="search" onsubmit="return false">
+        <div class="field-inline grow">
+          <label class="visually-hidden" for="searchInput">busca los productos</label>
+          <input id="searchInput" type="search" placeholder="Buscar productos…" autocomplete="off">
+        </div>
+        <div class="field-inline">
+          <label for="categorySelect">categoria</label>
+          <select id="categorySelect"><option value="">todas</option></select>
+        </div>
+        <div class="field-inline">
+          <label for="sortSelect">ordena por</label>
+          <select id="sortSelect">
+            <option value="featured">destacados</option>
+            <option value="price-asc">menor precio</option>
+            <option value="price-desc">mayor precio</option>
+            <option value="discount">mayor descuento</option>
+            <option value="name">nombre (a-z)</option>
+          </select>
+        </div>
+        <label class="check"><input type="checkbox" id="offersOnly"> solo ofertas</label>
+        <button class="btn btn-ghost btn-sm" id="resetFilters" type="button">limpia</button>
+      </form>
+
+      <p class="results-count" id="resultsCount" aria-live="polite"></p>
+      <div class="grid-products" id="productsGrid"></div>
+    </section>
+  </main>
+
+  <div id="footer-root"></div>
+  <noscript><p class="noscript">activa js para usar la tienda.</p></noscript>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

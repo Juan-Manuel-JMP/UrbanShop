@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>registro</title>
+  <meta name="theme-color" content="#5a4df0">
+  <link rel="icon" href="../assets/logo/logo.png" type="image/png">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="register">
+  <div id="navbar-root"></div>
+
+  <main class="container auth-page">
+    <div class="auth-card">
+      <aside class="auth-aside">
+        <img src="../assets/logo/logo.png" alt="logo" margin="auto" width="90" height="90">
+        <h2>crea tu cuenta</h2>
+      </aside>
+
+      <div class="auth-main">
+        <h1>crear cuenta</h1>
+        <p class="muted">tenes cuenta? <a class="text-link" id="goLogin" href="login.html"> inicia sesion</a></p>
+
+        <form id="registerForm" novalidate>
+          <div class="field">
+            <label for="name">nombre y apellido</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Juan Parylak" required>
+            <small class="field-error" data-error-for="name"></small>
+          </div>
+
+          <div class="field">
+            <label for="email">email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="juanma@gmail.com" required>
+            <small class="field-error" data-error-for="email"></small>
+          </div>
+
+          <div class="field">
+            <label for="password">contraseña</label>
+            <div class="input-wrap">
+              <input id="password" name="password" type="password" autocomplete="new-password" placeholder="minimo 6 caracteres" required>
+              <button class="toggle-pass" type="button" aria-pressed="false">Ver</button>
+            </div>
+            <small class="field-error" data-error-for="password"></small>
+          </div>
+
+          <div class="field">
+            <label for="confirm">repeti la contraseña</label>
+            <div class="input-wrap">
+              <input id="confirm" name="confirm" type="password" autocomplete="new-password" placeholder="repeti la contraseña" required>
+              <button class="toggle-pass" type="button" aria-pressed="false">Ver</button>
+            </div>
+            <small class="field-error" data-error-for="confirm"></small>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input type="checkbox" name="terms" id="terms">
+              acepto los terminos y condiciones
+            </label>
+            <small class="field-error" data-error-for="terms"></small>
+          </div>
+
+          <p class="form-error" role="alert" hidden></p>
+          <button class="btn btn-primary btn-block" type="submit">crear cuenta</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-root"></div>
+  <noscript><p class="noscript">activa js para usar la tienda.</p></noscript>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

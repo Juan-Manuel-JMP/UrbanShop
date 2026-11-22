@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>temporadas</title>
+  <meta name="description" content="videos de las promociones de temporada de Urban Shop y las ofertas vigentes.">
+  <meta name="theme-color" content="#5a4df0">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="seasons">
+  <div id="navbar-root"></div>
+
+  <main>
+    <header class="page-hero">
+      <div class="container">
+        <h1 class="local">promociones de temporada</h1>
+        <p>mira los videos de las temporadas y aprovecha los descuentos vigentes.</p>
+      </div>
+    </header>
+
+    <section class="container section">
+      <div class="section-head">
+        <h2>videos promocionales</h2>
+      </div>
+      <div class="chips" id="seasonChips" aria-label="Filtrar por temporada"></div>
+      <div class="video-grid" id="seasonVideos"></div>
+    </section>
+
+    <section class="container section">
+      <div class="section-head">
+        <h2>ofertas de temporada</h2>
+        <a class="link-more" href="productos.html?offer=1">ver todas</a>
+      </div>
+      <div class="grid-products" id="seasonOffers"></div>
+    </section>
+  </main>
+
+  <div id="footer-root"></div>
+  <noscript><p class="noscript">activa js para usar la tienda.</p></noscript>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

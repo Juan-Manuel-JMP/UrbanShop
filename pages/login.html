@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>login</title>
+  <meta name="theme-color" content="#5a4df0">
+  <link rel="icon" href="../assets/logo/logo.png" type="image/png">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="login">
+  <div id="navbar-root"></div>
 
+  <main class="container auth-page">
+    <div class="auth-card">
+      <aside class="auth-aside">
+        <img src="../assets/logo/logo.png" alt="logo" width="90" height="90">
+        <h2>bienvenida/o</h2>
+        <p>accede para finalizar tus compras, ver tus pedidos y aprovechar ofertas exclusivas.</p>
+      </aside>
+
+      <div class="auth-main">
+        <h1>incia sesion</h1>
+        <p class="muted">tenes cuenta? <a class="text-link" id="goRegister" href="registro.html">registrate</a></p>
+
+        <form id="loginForm" novalidate>
+          <div class="field">
+            <label for="email">email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="urbanshop@gmail.com" required>
+            <small class="field-error" data-error-for="email"></small>
+          </div>
+
+          <div class="field">
+            <label for="password">contraseña</label>
+            <div class="input-wrap">
+              <input id="password" name="password" type="password" autocomplete="current-password" placeholder="urban1234" required>
+              <button class="toggle-pass" type="button" aria-pressed="false">Ver</button>
+            </div>
+            <small class="field-error" data-error-for="password"></small>
+          </div>
+
+          <p class="form-error" role="alert" hidden></p>
+          <button class="btn btn-primary btn-block" type="submit">ingresar</button>
+        </form>
+
+        <p class="hint">cuenta de prueba - <strong>urbanshop@gmail.com</strong> - <strong>urban1234</strong></p>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-root"></div>
+  <noscript><p class="noscript">activa js para usar la tienda.</p></noscript>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
