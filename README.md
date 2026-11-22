@@ -2,31 +2,6 @@
 
 tienda realizada en HTML5, CSS3 y JavaScript con modulos ES (`type="module"`).
 
-## realizado para Talento Tech
-
-## características
-
-| Consignas de las clases | 
-|---|---|
-| Navegacion entre paginas | 7 páginas HTML enlazadas (`index`, `productos`, `temporadas`, `local`, `carrito`, login`,`registro`) |
-| Es responsiva | CSS con grillas fluidas y media queries |
-| Agrego inicio de sesion y registro | `login.html`, `registro.html`, `js/services/auth.js` |
-| Cards con varias imagenes, titulo, descripcion, precio y stock | `js/ui/productCard.js`   |
-| Json con varios productos | `data/products.json` (24 productos, 5 categorias) |
-| Carrito con funcionalidades, agregar, eliminar, sumar/restar y simular compra | `carrito.html`, `js/services/cart.js`, `js/pages/cart.js` |
-| Descuento de stock al comprar | `js/services/inventory.js` |
-| Banners con descuentos | Carrusel mas banners por producto (`data/banners.json`) |
-| Videos de temporadas y del local en cards | `temporadas.html`, `local.html`, `js/ui/videoCard.js` |
-| iframe del local | `local.html` (Google Maps) |
-| Footer | `components/footer.html` |
-| Productos destacados | Seccion en `index.html` (campo `featured` del Json) |
-| `fetch` | Productos, banners, videos, navbar y footer |
-| Manipulacion del DOM | `createElement`, `innerHTML`, delegación de eventos, `dialog` |
-| Logo | `assets/img/logo.svg` |
-| Menu movil flotante tipo vidrio (glass) | `.nav-dock.glass` en `components/navbar.html` + `css/layout.css` |
-| Navbar y footer reutilizables | `components/` cargados con `fetch` desde `js/main.js` |
-|---|---|
-
 ## estructura del proyecto
 
 ```
