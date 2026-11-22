@@ -1,0 +1,161 @@
+/* contenedor, header, menu movil, footer */
+#navbar-root,
+#footer-root { display: contents; } 
+
+.container { width: min(1200px, 100% - 2rem); margin-inline: auto; }
+.section { padding-block: clamp(1.25rem, 3.5vw, 2.5rem); }
+
+.section-head {
+  display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between;
+  gap: .4rem 1rem; margin-bottom: 1.25rem;
+}
+.section-head h2 { font-size: clamp(1.35rem, 2.6vw, 1.9rem); }
+.link-more { color: var(--primary); font-weight: 700; }
+.link-more:hover { text-decoration: underline; }
+
+.page-title { font-size: clamp(1.6rem, 3.5vw, 2.3rem); margin-bottom: 1.5rem; }
+
+.page-hero {
+  position: relative; overflow: hidden;
+  padding-block: clamp(2rem, 6vw, 4rem);
+  background: var(--grad); color: #fff;
+}
+.page-hero::after {
+  content: ""; position: absolute; right: -8%; top: -60%;
+  width: 420px; height: 420px; border-radius: 50%;
+  background: rgba(255, 255, 255, .14); pointer-events: none;
+}
+.page-hero h1 { font-size: clamp(1.8rem, 4.5vw, 3rem); }
+.page-hero p { max-width: 60ch; margin-top: .6rem; opacity: .93; }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(255, 255, 255, .82);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  backdrop-filter: blur(14px) saturate(160%);
+  border-bottom: 1px solid transparent;
+  transition: box-shadow .2s ease, border-color .2s ease;
+}
+.site-header.scrolled { border-color: var(--border); box-shadow: var(--shadow-sm); }
+
+.header-inner { display: flex; align-items: center; gap: 1.5rem; min-height: var(--header-h); }
+
+.brand { display: inline-flex; align-items: center; gap: .6rem; }
+.brand-text { font-weight: 800; font-size: 1.3rem; letter-spacing: -.03em; }
+.brand-text span {
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+}
+
+.nav-desktop { display: flex; gap: .25rem; margin-inline: auto; }
+.nav-desktop a {
+  padding: .5rem .95rem; border-radius: 999px;
+  font-weight: 600; color: var(--muted);
+  transition: color .2s ease, background .2s ease;
+}
+.nav-desktop a:hover { color: var(--text); background: rgba(90, 77, 240, .08); }
+.nav-desktop a.active { color: var(--primary); background: rgba(90, 77, 240, .12); }
+
+.header-actions { display: flex; align-items: center; gap: .6rem; }
+
+.icon-btn {
+  position: relative; display: grid; place-items: center;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--border); background: #fff;
+  transition: transform .15s ease, border-color .2s ease;
+}
+.icon-btn:hover { transform: translateY(-1px); border-color: var(--primary); }
+.icon-btn.active { border-color: var(--primary); color: var(--primary); }
+
+.cart-badge {
+  position: absolute; top: -5px; right: -5px;
+  display: grid; place-items: center;
+  min-width: 20px; height: 20px; padding: 0 5px;
+  border: 2px solid #fff; border-radius: 999px;
+  background: var(--accent); color: #fff;
+  font-size: .7rem; font-weight: 800; line-height: 1;
+}
+
+.auth-guest, .auth-user { display: flex; align-items: center; gap: .5rem; }
+.user-chip { display: flex; align-items: center; gap: .5rem; font-weight: 600; font-size: .9rem; }
+.avatar {
+  display: grid; place-items: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--grad); color: #fff; font-weight: 800; font-size: .9rem;
+}
+
+/* ---------- menu movil ---------- */
+.glass {
+  background: rgba(255, 255, 255, .45);
+  -webkit-backdrop-filter: blur(22px) saturate(190%);
+  backdrop-filter: blur(22px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, .7);
+  box-shadow: 0 12px 36px rgba(20, 22, 43, .22), inset 0 1px 0 rgba(255, 255, 255, .85);
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass { background: rgba(255, 255, 255, .94); }
+}
+
+.nav-dock {
+  position: fixed; z-index: 60;
+  left: 50%; transform: translateX(-50%);
+  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  width: min(100% - 24px, 480px);
+  display: none; justify-content: space-between; gap: 2px;
+  padding: 8px; border-radius: 28px;
+}
+.dock-item {
+  position: relative; flex: 1;
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 8px 4px; border-radius: 20px;
+  font-size: .68rem; font-weight: 700; color: #3a3f5c;
+  transition: background .25s ease, color .25s ease;
+}
+.dock-item svg { transition: transform .25s ease; }
+.dock-item:active svg { transform: scale(.9); }
+.dock-item.active {
+  background: var(--grad); color: #fff;
+  box-shadow: 0 6px 16px rgba(90, 77, 240, .35);
+}
+.dock-item.active svg { transform: translateY(-1px) scale(1.08); }
+.dock-item .cart-badge { top: 2px; right: calc(50% - 26px); border-color: transparent; }
+
+/* ---------- footer ---------- */
+.site-footer { margin-top: 3rem; background: #0f1226; color: #c3c7e0; }
+.site-footer .brand-text { color: #fff; }
+.footer-grid {
+  display: grid; gap: 2rem;
+  grid-template-columns: 1.6fr 1fr 1fr 1.3fr;
+  padding-block: 3rem 2rem;
+}
+.footer-brand p { margin-top: 1rem; max-width: 34ch; font-size: .92rem; }
+.site-footer h4 { margin-bottom: .9rem; color: #fff; font-size: 1rem; }
+.site-footer li { margin-bottom: .5rem; font-size: .92rem; }
+.site-footer a:hover { color: #fff; text-decoration: underline; }
+.footer-bottom {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem;
+  padding-block: 1.25rem; border-top: 1px solid rgba(255, 255, 255, .1);
+  font-size: .85rem;
+}
+
+/* ---------- responsividad ---------- */
+@media (max-width: 960px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 860px) {
+  .nav-desktop,
+  .cart-link,
+  .btn-register,
+  .user-name { display: none; }
+  .header-actions { margin-left: auto; }
+  .nav-dock { display: flex; }
+  body { padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+}
+
+@media (max-width: 560px) {
+  .footer-grid { grid-template-columns: 1fr; padding-block: 2rem 1.5rem; }
+  .footer-bottom { justify-content: center; text-align: center; }
+}
