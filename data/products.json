@@ -1,0 +1,194 @@
+[
+  {
+    "id": "p01",
+    "title": "auriculares bluetooth",
+    "category": "audio",
+    "description": "cancelacion activa de ruido, 40 horas de bateria y carga rápida USB-C.",
+    "price": 89900,
+    "discount": 20,
+    "stock": 25,
+    "featured": true,
+    "images": [
+      "../assets/img/auriculares_inalambricos/auriculares_inalambricos.png",
+      "../assets/img/auriculares_inalambricos/auriculares_inalambricos1.png",
+      "../assets/img/auriculares_inalambricos/auriculares_inalambricos2.png",
+      "../assets/img/auriculares_inalambricos/auriculares_inalambricos3.png"
+    ]
+  },
+  {
+    "id": "p02",
+    "title": "parlante portatil",
+    "category": "audio",
+    "description": "sonido 360° resistente al agua.",
+    "price": 54900,
+    "discount": 15,
+    "stock": 40,
+    "featured": false,
+    "images": [
+      "../assets/img/parlante_portatil/parlante_portatil.png",
+      "../assets/img/parlante_portatil/parlante_portatil1.png",
+      "../assets/img/parlante_portatil/parlante_portatil2.png",
+      "../assets/img/parlante_portatil/parlante_portatil3.png"
+    ]
+  },
+  {
+    "id": "p03",
+    "title": "barra de sonido cinema",
+    "category": "audio",
+    "description": "sonido espectacular como en una sala de cine.",
+    "price": 149900,
+    "discount": 25,
+    "stock": 12,
+    "featured": true,
+    "images": [
+      "../assets/img/barra_sonido/barra_de_sonido_cinema.png",
+      "../assets/img/barra_sonido/barra_de_sonido_cinema1.png",
+      "../assets/img/barra_sonido/barra_de_sonido_cinema2.png",
+      "../assets/img/barra_sonido/barra_de_sonido_cinema3.png"
+    ]
+  },
+  {
+    "id": "p04",
+    "title": "microfono usb streamer",
+    "category": "audio",
+    "description": "condensador cardioide con brazo articulado y ideal streaming.",
+    "price": 72900,
+    "discount": 10,
+    "stock": 3,
+    "featured": false,
+    "images": [
+      "../assets/img/microfono_usb_streaming/microfono_usb_streaming.png",
+      "../assets/img/microfono_usb_streaming/microfono_usb_streaming1.png",
+      "../assets/img/microfono_usb_streaming/microfono_usb_streaming2.png",
+      "../assets/img/microfono_usb_streaming/microfono_usb_streaming3.png"
+    ]
+  },
+  {
+    "id": "p05",
+    "title": "monitor curvo 27\"",
+    "category": "computacion",
+    "description": "panel curvo QHD. Colores intensos para trabajar y jugar.",
+    "price": 429900,
+    "discount": 30,
+    "stock": 10,
+    "featured": true,
+    "images": [
+      "../assets/img/monitor_curvo/monitor_curvo.png",
+      "../assets/img/monitor_curvo/monitor_curvo1.png",
+      "../assets/img/monitor_curvo/monitor_curvo2.png",
+      "../assets/img/monitor_curvo/monitor_curvo3.png"
+    ]
+  },
+  {
+    "id": "p06",
+    "title": "teclado mecanico rgb",
+    "category": "computacion",
+    "description": "Switches intercambiables sin soldar, iluminación RGB por tecla y cable USB-C desmontable.",
+    "price": 99900,
+    "discount": 0,
+    "stock": 22,
+    "featured": false,
+    "images": [
+      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb.png",
+      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb1.png",
+      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb2.png",
+      "../assets/img/teclado_mecanico_rgb/teclado_mecanico_rgb3.png"
+    ]
+  },
+  {
+    "id": "p07",
+    "title": "disco SSD NVMe 1TB",
+    "category": "computacion",
+    "description": "velocidades de lectura de hasta 3500 MB/s.",
+    "price": 119900,
+    "discount": 20,
+    "stock": 18,
+    "featured": false,
+    "images": [
+      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb.png",
+      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb1.png",
+      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb2.png",
+      "../assets/img/disco_ssd_nvme_1tb/disco_ssd_nvme_1tb3.png"
+    ]
+  },
+  {
+    "id": "p08",
+    "title": "smartphone 64GB",
+    "category": "celulares",
+    "description": "un celular super protegido antigolpes dual sim.",
+    "price": 42900,
+    "discount": 0,
+    "stock": 27,
+    "featured": false,
+    "images": [
+      "../assets/img/celular/celular.png",
+      "../assets/img/celular/celular1.png",
+      "../assets/img/celular/celular2.png",
+      "../assets/img/celular/celular3.png"
+    ]
+  },
+  {
+    "id": "p09",
+    "title": "notebook gaming",
+    "category": "gaming",
+    "description": "potente notebook gamer, rendimiento confiable.",
+    "price": 159900,
+    "discount": 20,
+    "stock": 9,
+    "featured": true,
+    "images": [
+      "../assets/img/notebook_gaming/notebook_gaming.png",
+      "../assets/img/notebook_gaming/notebook_gaming1.png",
+      "../assets/img/notebook_gaming/notebook_gaming2.png",
+      "../assets/img/notebook_gaming/notebook_gaming3.png"
+    ]
+  },
+  {
+    "id": "p10",
+    "title": "joystick inalambrico pro",
+    "category": "gaming",
+    "description": "gatillos con vibración y eficiencia al jugar.",
+    "price": 69900,
+    "discount": 0,
+    "stock": 16,
+    "featured": false,
+    "images": [
+      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro.png",
+      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro1.png",
+      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro2.png",
+      "../assets/img/joystick_inalambrico_pro/joystick_inalambrico_pro3.png"
+    ]
+  },
+  {
+    "id": "p11",
+    "title": "silla gamer ergonomica",
+    "category": "gaming",
+    "description": "respaldo reclinable, apoyabrazos y base de acero reforzado.",
+    "price": 279900,
+    "discount": 35,
+    "stock": 6,
+    "featured": true,
+    "images": [
+      "../assets/img/silla_gamer/silla_gamer_ergonomica.png",
+      "../assets/img/silla_gamer/silla_gamer_ergonomica1.png",
+      "../assets/img/silla_gamer/silla_gamer_ergonomica2.png",
+      "../assets/img/silla_gamer/silla_gamer_ergonomica3.png"
+    ]
+  },
+  {
+    "id": "p12",
+    "title": "consola retro hdmi",
+    "category": "gaming",
+    "description": "diseñada para que los gamers tengan la mejor experiencia.",
+    "price": 279900,
+    "discount": 35,
+    "stock": 6,
+    "featured": true,
+    "images": [
+      "../assets/img/consola_gaming/consola_retro_hdmi.png",
+      "../assets/img/consola_gaming/consola_retro_hdmi1.png",
+      "../assets/img/consola_gaming/consola_retro_hdmi2.png",
+      "../assets/img/consola_gaming/consola_retro_hdmi3.png"
+    ]
+  }
+]

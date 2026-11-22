@@ -1,0 +1,74 @@
+[
+  {
+    "id": "b1",
+    "type": "hero",
+    "badge": "hasta 30% OFF",
+    "title": "semana del Audio",
+    "subtitle": "auriculares, parlantes y barras de sonido.",
+    "image": "../assets/img/auriculares_parlantes_barras_de_sonido/auriculares_parlantes_barras_de_sonido.png",
+    "cta": {
+      "label": "ver audio",
+      "href": "productos.html?category=Audio&offer=1"
+    }
+  },
+  {
+    "id": "b2",
+    "type": "hero",
+    "badge": "gaming week · hasta 35% OFF",
+    "title": "subi de nivel tu setup",
+    "subtitle": "sillas, auriculares y consolas con descuentos por tiempo limitado.",
+    "image": "../assets/img/silla_auricular_consola/silla_auricular_consola.png",
+    "cta": {
+      "label": "ver gaming",
+      "href": "productos.html?category=Gaming&offer=1"
+    }
+  },
+  {
+    "id": "b3",
+    "type": "hero",
+    "badge": "envio gratis desde $80.000",
+    "title": "tu casa, mas inteligente",
+    "subtitle": "camaras, lamparas y aspiradoras robot con hasta 25% de descuento.",
+    "image": "../assets/img/camara_lampara_aspiradora/camara_lampara_aspiradora.png",
+    "cta": {
+      "label": "ver hogar",
+      "href": "productos.html?category=Hogar%20inteligente&offer=1"
+    }
+  },
+  {
+    "id": "m1",
+    "type": "mini",
+    "badge": "-30%",
+    "title": "monitor curvo 27\" 165Hz",
+    "subtitle": "para jugar y trabajar.",
+    "image": "../assets/img/monitor_curvo/monitor_curvo.png",
+    "cta": {
+      "label": "aprovecha",
+      "href": "productos.html?q=monitor"
+    }
+  },
+  {
+    "id": "m2",
+    "type": "mini",
+    "badge": "-35%",
+    "title": "silla gamer ergonomica",
+    "subtitle": "comodidad para largas jornadas.",
+    "image": "../assets/img/silla_gamer/silla_gamer_ergonomica.png",
+    "cta": {
+      "label": "aprovecha",
+      "href": "productos.html?q=silla"
+    }
+  },
+  {
+    "id": "m3",
+    "type": "mini",
+    "badge": "-25%",
+    "title": "camara lampara aspiradora",
+    "subtitle": "limpieza automatica.",
+    "image": "../assets/img/camara_lampara_aspiradora/camara_lampara_aspiradora.png",
+    "cta": {
+      "label": "aprovecha",
+      "href": "productos.html?q=aspiradora"
+    }
+  }
+]

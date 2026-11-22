@@ -1,1 +1,86 @@
-
+[
+  {
+    "id": "v1",
+    "category": "temporada",
+    "season": "Primavera",
+    "title": "Promo Primavera",
+    "description": "renova tu tecnologia con descuentos de hasta 30% en toda la tienda.",
+    "src": "assets/videos/promo-primavera.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v2",
+    "category": "temporada",
+    "season": "Primavera",
+    "title": "Especial Verano",
+    "description": "parlantes, smartwatches y accesorios para disfrutar al aire libre.",
+    "src": "assets/videos/promo-verano.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v3",
+    "category": "temporada",
+    "season": "Verano",
+    "title": "Vuelta a la rutina",
+    "description": "notebooks, monitores y perifericos para estudiar y trabajar mejor.",
+    "src": "assets/videos/promo-otono.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v4",
+    "category": "temporada",
+    "season": "Verano",
+    "title": "Invierno Gamer",
+    "description": "consolas, joysticks y sillas gamer con cuotas sin interes.",
+    "src": "assets/videos/promo-invierno.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v5",
+    "category": "temporada",
+    "season": "Invierno",
+    "title": "Invierno Gamer",
+    "description": "consolas, joysticks y sillas gamer con cuotas sin interes.",
+    "src": "assets/videos/promo-invierno.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v6",
+    "category": "temporada",
+    "season": "Invierno",
+    "title": "Invierno Gamer",
+    "description": "consolas, joysticks y sillas gamer con cuotas sin interés.",
+    "src": "assets/videos/promo-invierno.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v7",
+    "category": "local",
+    "season": "",
+    "tag": "Fachada",
+    "title": "conoce nuestro local",
+    "description": "UrbanShop.",
+    "src": "assets/videos/local-fachada.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v8",
+    "category": "local",
+    "season": "",
+    "tag": "Interior",
+    "title": "Recorrido por la tienda",
+    "description": "nuestros productos.",
+    "src": "assets/videos/local-interior.mp4",
+    "poster": ""
+  },
+  {
+    "id": "v9",
+    "category": "local",
+    "season": "",
+    "tag": "Equipo",
+    "title": "Nuestro equipo",
+    "description": "equipo de trabajo que te ayudaran a elegir el producto ideal.",
+    "src": "assets/videos/local-equipo.mp4",
+    "poster": ""
+  }
+]
