@@ -5,7 +5,7 @@
     "season": "Primavera",
     "title": "Promo Primavera",
     "description": "renova tu tecnologia con descuentos de hasta 30% en toda la tienda.",
-    "src": "assets/videos/promo-primavera.mp4",
+    "src": "./assets/videos/promo-primavera.mp4",
     "poster": ""
   },
   {
@@ -14,7 +14,7 @@
     "season": "Primavera",
     "title": "Especial Verano",
     "description": "parlantes, smartwatches y accesorios para disfrutar al aire libre.",
-    "src": "assets/videos/promo-verano.mp4",
+    "src": "./assets/videos/promo-verano.mp4",
     "poster": ""
   },
   {
@@ -23,7 +23,7 @@
     "season": "Verano",
     "title": "Vuelta a la rutina",
     "description": "notebooks, monitores y perifericos para estudiar y trabajar mejor.",
-    "src": "assets/videos/promo-otono.mp4",
+    "src": "./assets/videos/promo-otono.mp4",
     "poster": ""
   },
   {
@@ -32,7 +32,7 @@
     "season": "Verano",
     "title": "Invierno Gamer",
     "description": "consolas, joysticks y sillas gamer con cuotas sin interes.",
-    "src": "assets/videos/promo-invierno.mp4",
+    "src": "./assets/videos/promo-invierno.mp4",
     "poster": ""
   },
   {
@@ -41,7 +41,7 @@
     "season": "Invierno",
     "title": "Invierno Gamer",
     "description": "consolas, joysticks y sillas gamer con cuotas sin interes.",
-    "src": "assets/videos/promo-invierno.mp4",
+    "src": "./assets/videos/promo-invierno.mp4",
     "poster": ""
   },
   {
@@ -50,7 +50,7 @@
     "season": "Invierno",
     "title": "Invierno Gamer",
     "description": "consolas, joysticks y sillas gamer con cuotas sin interés.",
-    "src": "assets/videos/promo-invierno.mp4",
+    "src": "./assets/videos/promo-invierno.mp4",
     "poster": ""
   },
   {
@@ -70,7 +70,7 @@
     "tag": "Interior",
     "title": "Recorrido por la tienda",
     "description": "nuestros productos.",
-    "src": "assets/videos/local-interior.mp4",
+    "src": "./assets/videos/local-interior.mp4",
     "poster": ""
   },
   {
@@ -80,7 +80,7 @@
     "tag": "Equipo",
     "title": "Nuestro equipo",
     "description": "equipo de trabajo que te ayudaran a elegir el producto ideal.",
-    "src": "assets/videos/local-equipo.mp4",
+    "src": "./assets/videos/local-equipo.mp4",
     "poster": ""
   }
 ]
